@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -18,61 +19,107 @@
 <body>
     <div class="container">
         <header>
-            <h1>Keith Lim</h1>
+            <h1 id="header_name">Keith Lim</h1>
             <div class="header_items">
-                <a href="mailto: ktlim83@gmail.com"><i class="fa fa-envelope-o" aria-hidden="true"></i>Contact</a>
-                <a href="/images/myw3schoolsimage.jpg" download><i class="fa fa-download" aria-hidden="true"></i>
-                    Resume</a>
+                <a id="contact_icon" href="mailto: ktlim83@gmail.com"><i class="fa fa-envelope-o"
+                        aria-hidden="true"></i></a>Message
+                <a id="contact_icon" href="/images/myw3schoolsimage.jpg" download><i class="fa fa-download"
+                        aria-hidden="true"></i>
+                </a>Resume
             </div>
         </header>
         <hr>
         <div class="title">
-            <h2>Full-stack web developer</h2>
-            <h3>Also full send, full of creativity, and awfully into coding.</h3>
+            <h4>Full-stack web developer</h4>
+            <h5>Also full send, full of creativity, and awfully into coding.</h5>
         </div>
-        <div class="row">
-            <div class="col-6">
-                <h1>Skills</h1>
+        <div id="skills_section" class="row">
+            <div class="col-12">
+                <div>
+                    <h3>SKILLS & TOOLS</h3>
+                    <p>These are the skills and technologies I have used to create.</p>
+                </div>
                 <div class="row">
-                    <div class="col-6">HTML<br>CSS<br>Adobe Premeire<br>Adobe PhotoShop</div>
-                    <div class="col-6">Javascript<br>Django<br>Python<br>SQlite</div>
+                    <div class="icon_group">
+                        <img class="techicon" src="/assets/images/html.png" alt="techicon">
+                        <img class="techicon" src="/assets/images/css.png" alt="techicon">
+                        <img class="techicon" src="/assets/images/js.png" alt="techicon">
+                        <img class="techicon" src="/assets/images/python.png" alt="techicon">
+                        <img class="techicon" src="/assets/images/django.png" alt="techicon">
+                        <img class="techicon" src="/assets/images/sql.png" alt="techicon">
+                        <img class="techicon" src="/assets/images/git.png" alt="techicon">
+                        <img class="techicon" src="/assets/images/premeire.png" alt="techicon">
+                        <img class="techicon" src="/assets/images/photoshop.png" alt="techicon">
+                    </div>
                 </div>
             </div>
         </div>
         <hr>
         <div class="project-section">
-            <h1>Projects</h1>
+            <h3>Projects</h3>
             <div class="row">
-                <div id="project description" class="col-6">
-                    <h1>Jankuruma</h1>
-                    <p><a href="#">Demo</a>|<a href="#">View code</a></p>
+                <div class="col-4">
+                    <div class="card_wrap">
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    <img src="/assets/images/jankuruma.PNG">
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <h4>Jankuruma</h4>
+                                    Automotive Community Website
+                                    <p class="youtube-link"><a href="/vroom/chassis_page/{{ car.id }}"><i
+                                                class="fa fa-youtube"></i></a></p>
+                                    <a href="https://en.wikipedia.org/wiki/mazda" target="_blank">Website</a> |
+                                    <a href="https://en.wikipedia.org/wiki/mazda" target="_blank">View code</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div id="project-box" class="col-6">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid quidem laborum doloremque a.
-                    Facere excepturi atque aspernatur, sint tempora molestias illum quas quidem quod exercitationem
-                    minus cum reiciendis eaque eius.
+                <div class="col-4">
+                    <div class="card_wrap">
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    fdsdf
+                                    <img src="/static/images/logos/Mazda-logo.png">
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <h4>Models:</h4>
+                                    {% for car in mazda_chassis %}
+                                    <p><a href="/vroom/chassis_page/{{ car.id }}">{{car.model}}</a></p>
+                                    {% endfor %}
+                                    <a href="https://en.wikipedia.org/wiki/mazda" target="_blank">History</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="row">
-                <div id="project description" class="col-6">
-                    <h1>Jankuruma</h1>
-                    <p><a href="#">Demo</a>|<a href="#">View code</a></p>
-                </div>
-                <div id="project-box" class="col-6">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid quidem laborum doloremque a.
-                    Facere excepturi atque aspernatur, sint tempora molestias illum quas quidem quod exercitationem
-                    minus cum reiciendis eaque eius.
-                </div>
-            </div>
-            <div class="row">
-                <div id="project description" class="col-6">
-                    <h1>Jankuruma</h1>
-                    <p><a href="#">Demo</a>|<a href="#">View code</a></p>
-                </div>
-                <div id="project-box" class="col-6">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid quidem laborum doloremque a.
-                    Facere excepturi atque aspernatur, sint tempora molestias illum quas quidem quod exercitationem
-                    minus cum reiciendis eaque eius.
+                <div class="col-4">
+                    <div class="card_wrap">
+                        <div class="card">
+                            <div class="face face1">
+                                <div class="content">
+                                    fdsdf
+                                    <img src="/static/images/logos/Mazda-logo.png">
+                                </div>
+                            </div>
+                            <div class="face face2">
+                                <div class="content">
+                                    <h4>Models:</h4>
+                                    {% for car in mazda_chassis %}
+                                    <p><a href="/vroom/chassis_page/{{ car.id }}">{{car.model}}</a></p>
+                                    {% endfor %}
+                                    <a href="https://en.wikipedia.org/wiki/mazda" target="_blank">History</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -80,6 +127,7 @@
             <img id="profile_pic" src="/assets/images/IMG_20191020_180602_552w.jpg">
         </div>
         <footer>
+            <h6>Let's connect!</h6>
             <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
             <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
