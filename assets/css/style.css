@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: bisque;
+}
+
+.header_items {
+    float: right;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+.title, footer {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#profile_pic {
+    margin: 0 auto;
+    display: block;
+    height: 200px;
+    width: 200px;
+    border-radius: 65%;
+}
