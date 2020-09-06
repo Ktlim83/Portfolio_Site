@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.img-banner {
+    display: none;
+}
+.img-info  {
+    width: 100%;
+}
+.img-info h2 {
+    padding: 30px 20px 20px;
+    font-family: Arial;
+    font-size: 50px;
+    color: gray;
+    line-height: 44px;
+
+}
+.img-info p {
+    padding: 0px 20px 20px;
+    font-family: Arial;
+    font-size: 16px;
+    color: gray;
+    line-height: 24px;
+
+}
+
+.img-me {
+    width: 100%;
+    padding-left: 25px;
+}
+
+
+.img-title {
+    width: 100%;
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    color: green
+}
+
+.icon_group {
+    padding: 0px 68px 20px;
+}
+
+.contact-header {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    padding: 25px 20px 30px 0px;
+}
+
+.content {
+    text-align: center;
+    color: gray;
+    padding-bottom: 20px;
+}
+
+.content h4 {
+    color: rgb(5, 5, 5);
+    font-style: italic;
+    
+}
+
+.img-content {
+    width: 100%;
+    padding-left: 25px;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .img-banner {
+        display: block;
+        width: 100%;
+        padding-bottom: 30px;
+    }
+
+    .wrapper {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+    .img-info h2 {
+        padding: 20px 24px 0px;
+
+    
+    }
+    .img-info p {
+        padding: 20px 100px 0px;
+        
+    
+    }
+
+    .img-me {
+        padding-top: 30px;
+    }
+
+    .img-title {
+        width: 100%;
+    }
+
+    .contact-header {
+        width: 100%;
+        padding: 0px 80px 30px 0px;
+        font-size:20px;
+    }
+
+    .content {
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    
+    .content h4 {
+        color: rgb(5, 5, 5);
+        font-style: italic;
+        
+    }
+
+    .img-content {
+        padding-top: 30px;
+    }
+
+    .icon_group {
+        padding: 0px 105px 20px;
+    }
+
+    
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+    .wrapper {
+        width: 100%;
+    }
+    .img-info  {
+        width: 50%;
+        float: right;
+    }
+    .img-info h2 {
+        padding: 20px 0px 0px 30px;
+        display: inline-block;
+
+    
+    }
+    .img-info p {
+        padding: 20px 0px 0px 30px;
+        
+    
+    }
+    .img-me {
+        display: none;
+    }
+
+    .img-title {
+        width: 100%;
+      
+    }
+    
+    .contact-header {
+        font-size:30px;
+        width: 100%;
+        padding: 10px 40px 30px 0px;
+    }
+
+    .content {
+        font-size: 22px;
+        padding-top: 70px;
+    }
+    
+    .content h4 {
+        color: rgb(5, 5, 5);
+        font-style: italic;
+        
+    }
+    .img-content {
+        width: 100%;
+    }
+
+
+    
+}
