@@ -4,135 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
         integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css">
 
 
     <title>Portfolio</title>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <h1 id="header_name">Keith Lim</h1>
-            <div class="header_items">
-                <a id="contact_icon" href="mailto: ktlim83@gmail.com"><i class="fa fa-envelope-o"
-                        aria-hidden="true"></i></a>Message
-                <a id="contact_icon" href="/images/myw3schoolsimage.jpg" download><i class="fa fa-download"
-                        aria-hidden="true"></i>
-                </a>Resume
-            </div>
-        </header>
-        <hr>
-        <div class="title">
-            <h4>Full-stack web developer</h4>
-            <h5 class="mb-0">Also full send, full of creativity, and awfully into coding.</h5>
-        </div>
-        <div id="skills_section" class="row">
-            <div class="col-12">
-                <div>
-                    <h3>SKILLS & TOOLS</h3>
-                    <p>These are the skills and technologies I have used to create.</p>
-                </div>
-                <div class="row">
-                    <div class="icon_group">
-                        <img class="techicon" src="/assets/images/html.png" alt="techicon">
-                        <img class="techicon" src="/assets/images/css.png" alt="techicon">
-                        <img class="techicon" src="/assets/images/js.png" alt="techicon">
-                        <img class="techicon" src="/assets/images/python.png" alt="techicon">
-                        <img class="techicon" src="/assets/images/django.png" alt="techicon">
-                        <img class="techicon" src="/assets/images/sql.png" alt="techicon">
-                        <img class="techicon" src="/assets/images/git.png" alt="techicon">
-                        <img class="techicon" src="/assets/images/premeire.png" alt="techicon">
-                        <img class="techicon" src="/assets/images/photoshop.png" alt="techicon">
+    <img class="img-banner" src="assets/images/banner.jpg" alt="banner">
+    <div class="contact-header">
+        <a id="contact_icon" href="mailto: ktlim83@gmail.com"><i class="fa fa-envelope-o"
+                aria-hidden="true"></i></a>Message
+        <a id="contact_icon" href="/images/myw3schoolsimage.jpg" download><i class="fa fa-download"
+                aria-hidden="true"></i>
+        </a>Resume</div>
+
+    <div class="wrapper">
+        <article class="img-info">
+            <h2>Hello!</h2>
+            <p>My name is Keith Lim, I am a <span class="img-title">Web Developer</span> located in Seattle, Wa.</p>
+        </article>
+        <img class="img-me" src="/assets/images/self.jpg" alt="me">
+        <article class="img-info">
+            <div id="skills_section" class="row">
+                <div class="col-12">
+                    <div>
+                        <h2>SKILLS & TOOLS</h2>
+                        <hr>
+                        <p>These are the skills and technologies I have used to create.</p>
                     </div>
-                </div>
-            </div>
-        </div>
-        <hr>
-        <div class="project-section">
-            <h3>Projects</h3>
-            <div class="row">
-                <div class="col-4">
-                    <div class="card_wrap">
-                        <div class="card">
-                            <div class="face face1">
-                                <div class="content">
-                                    <img src="/assets/images/jankuruma.PNG">
-                                </div>
-                            </div>
-                            <div class="face face2">
-                                <div class="content">
-                                    <h4>Jankuruma</h4>
-                                    Automotive Community Website
-                                    <p class="youtube-link"><a href="/vroom/chassis_page/{{ car.id }}"><i
-                                                class="fa fa-youtube"></i></a></p>
-                                    <a href="https://en.wikipedia.org/wiki/mazda" target="_blank">Website</a> |
-                                    <a href="https://en.wikipedia.org/wiki/mazda" target="_blank">View code</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card_wrap">
-                        <div class="card">
-                            <div class="face face1">
-                                <div class="content">
-                                    <img src="/assets/images/meetmypet.PNG">
-                                </div>
-                            </div>
-                            <div class="face face2">
-                                <div class="content">
-                                    <h4>Meet My Pet</h4>
-                                    Pet Meet-ups and Adoption
-                                    <p class="youtube-link"><a href="/vroom/chassis_page/{{ car.id }}"><i
-                                                class="fa fa-youtube"></i></a></p>
-                                    <a href="https://en.wikipedia.org/wiki/mazda" target="_blank">Website</a> |
-                                    <a href="https://en.wikipedia.org/wiki/mazda" target="_blank">View code</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card_wrap">
-                        <div class="card">
-                            <div class="face face1">
-                                <div class="content">
-                                    <img src="/assets/images/jankuruma.PNG">
-                                </div>
-                            </div>
-                            <div class="face face2">
-                                <div class="content">
-                                    <h4>Jankuruma</h4>
-                                    Automotive Community Website
-                                    <p class="youtube-link"><a href="/vroom/chassis_page/{{ car.id }}"><i
-                                                class="fa fa-youtube"></i></a></p>
-                                    <a href="https://en.wikipedia.org/wiki/mazda" target="_blank">Website</a> |
-                                    <a href="https://en.wikipedia.org/wiki/mazda" target="_blank">View code</a>
-                                </div>
-                            </div>
+                    <div class="row">
+                        <div class="icon_group">
+                            <img class="techicon" src="/assets/images/html.png" alt="techicon">
+                            <img class="techicon" src="/assets/images/css.png" alt="techicon">
+                            <img class="techicon" src="/assets/images/js.png" alt="techicon">
+                            <img class="techicon" src="/assets/images/python.png" alt="techicon">
+                            <img class="techicon" src="/assets/images/django.png" alt="techicon">
+                            <img class="techicon" src="/assets/images/sql.png" alt="techicon">
+                            <img class="techicon" src="/assets/images/git.png" alt="techicon">
+                            <img class="techicon" src="/assets/images/premeire.png" alt="techicon">
+                            <img class="techicon" src="/assets/images/photoshop.png" alt="techicon">
+                            <img class="techicon" src="/assets/images/code.png" alt="techicon">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row mt-5">
-            <img id="profile_pic" src="/assets/images/IMG_20191020_180602_552w.jpg">
-        </div>
-        <footer>
-            <h6>Let's connect!</h6>
-            <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
-            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        </footer>
-    </div>
+        </article>
+        <article class="img-info">
+            <h2>My Projects</h2>
+            <p>Below are a few projects that I have worked on. </p>
+            <img class="img-content" src="/assets/images/jankuruma.PNG" alt="website">
+            <div class="content">
+                <h4>Jankuruma</h4>
+                <span>Automotive Community</span> <br>
+                <span><a href="#"><i class="fa fa-youtube"></i></a> Video</span>
+                <span><a href="#"><i class="fa fa-github"></i></a> View Code</span>
+                <span><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a> Website</span>
+            </div>
+            <img class="img-content" src="/assets/images/jankuruma.PNG" alt="website">
+            <div class="content">
+                <h4>Jankuruma</h4>
+                <span>Automotive Community</span> <br>
+                <span><a href="#"><i class="fa fa-youtube"></i></a> Video</span>
+                <span><a href="#"><i class="fa fa-github"></i></a> View Code</span>
+                <span><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a> Website</span>
+            </div>
+            <img class="img-content" src="/assets/images/jankuruma.PNG" alt="website">
+            <div class="content">
+                <h4>Jankuruma</h4>
+                <span>Automotive Community</span> <br>
+                <span><a href="#"><i class="fa fa-youtube"></i></a> Video</span>
+                <span><a href="#"><i class="fa fa-github"></i></a> View Code</span>
+                <span><a href="#"><i class="fa fa-link" aria-hidden="true"></i></a> Website</span>
+            </div>
+        </article>
     </div>
 </body>
 
