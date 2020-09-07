@@ -14,7 +14,8 @@
     width: 100%;
 }
 .img-info h2 {
-    padding: 30px 20px 20px;
+    display: inline-block;
+    padding: 30px 45px 20px;
     font-family: Arial;
     font-size: 50px;
     color: gray;
@@ -24,15 +25,17 @@
 .img-info p {
     padding: 0px 20px 20px;
     font-family: Arial;
-    font-size: 16px;
+    font-size: 10px;
+    font-weight: bold;
     color: gray;
-    line-height: 24px;
+    line-height: 20px;
+    margin-bottom: 0;
 
 }
 
 .img-me {
     width: 100%;
-    padding-left: 25px;
+    padding-left: 10px;
 }
 
 
@@ -47,17 +50,39 @@
     padding: 0px 68px 20px;
 }
 
+.contact-me  a {
+    font-size: 20px;
+    color: black;
+}
+
+.app-links i {
+    color: red;
+    font-size: 26;
+}
+
+
 .contact-header {
     text-align: right;
     display: inline-block;
     width: 100%;
-    padding: 25px 20px 30px 0px;
+    padding: 25px 0px 20px 15px;
+}
+
+.contact-header i {
+    color: black;
+}
+
+.about-link {
+    color: black;
+    font-size: 22px;
+    float: left;
+    padding-left: 10px;
+    font-family: 'Anton', sans-serif;
 }
 
 .content {
     text-align: center;
     color: gray;
-    padding-bottom: 20px;
 }
 
 .content h4 {
@@ -68,10 +93,22 @@
 
 .img-content {
     width: 100%;
-    padding-left: 25px;
+    padding-left: 10px;
 }
 
+#more-btn {
+    line-height: 14px;
+    padding-left: 10px;
+}
 
+.tech-group .techicon {
+    height: 20px;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+}
 
 
 
@@ -90,13 +127,14 @@
     }
 
     .img-info h2 {
-        padding: 20px 24px 0px;
+        padding: 20px 98px 0px;
+        
 
     
     }
     .img-info p {
         padding: 20px 100px 0px;
-        
+        font-size: 19px;
     
     }
 
@@ -108,10 +146,20 @@
         width: 100%;
     }
 
+    .about-link {
+        font-size: 32px;
+        padding-left: 90px;
+        position: relative;
+        top: -12px;
+        
+       
+    }
+
     .contact-header {
         width: 100%;
         padding: 0px 80px 30px 0px;
         font-size:20px;
+
     }
 
     .content {
@@ -129,8 +177,27 @@
         padding-top: 30px;
     }
 
+    #more-btn {
+        line-height: 20px;
+        padding: 8px 55px;
+    }
+
+    .tech-group .techicon {
+        height: 30px;
+    }
+
     .icon_group {
         padding: 0px 105px 20px;
+    }
+
+    .contact-me  a {
+        font-size: 24px;
+        color: black;
+    }
+
+    .app-links i {
+        color: red;
+        font-size: 24;
     }
 
     
