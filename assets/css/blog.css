@@ -1,10 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    
 }
 
 .wrapper {
     width: 100%;
+    
 }
 
 .img-banner {
@@ -15,39 +17,36 @@
 }
 .img-info h2 {
     display: inline-block;
-    padding: 30px 45px 20px;
+    padding: 20px 8px 10px;
     font-family: Arial;
-    font-size: 50px;
-    color: gray;
+    float: left;
+    font-size: 30px;
+    color: rgb(6, 129, 43);
     line-height: 44px;
 
 }
+
+.date {
+    float: left;
+    display: inline-block;
+}
+
+#blog-image {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid rgb(201, 8, 8);
+}
+
+
 .img-info p {
-    padding: 0px 20px 20px;
-    font-family: Arial;
+    padding: 60px 45px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 10px;
     font-weight: bold;
-    color: gray;
+    color: rgb(10, 35, 255);
     line-height: 20px;
     margin-bottom: 0;
 
-}
-
-.img-me {
-    width: 100%;
-    padding-left: 10px;
-}
-
-
-.img-title {
-    width: 100%;
-    font-family: 'Anton', sans-serif;
-    font-size: 22px;
-    color: green
-}
-
-.icon_group {
-    padding: 0px 68px 20px;
 }
 
 .contact-me  a {
@@ -95,30 +94,6 @@
     font-family: 'Anton', sans-serif;
 }
 
-.content {
-    text-align: center;
-    color: gray;
-}
-
-.content h4 {
-    color: rgb(5, 5, 5);
-    font-style: italic;
-    
-}
-
-.img-content {
-    width: 100%;
-    padding-left: 10px;
-}
-
-#more-btn {
-    line-height: 14px;
-    padding-left: 10px;
-}
-
-.tech-group .techicon {
-    height: 20px;
-}
 
 footer {
     text-align: center;
@@ -151,15 +126,6 @@ footer {
         padding: 20px 100px 0px;
         font-size: 19px;
     
-    }
-
-    .img-me {
-        padding-top: 30px;
-    }
-
-
-    .img-title {
-        width: 100%;
     }
 
     .about-link {
@@ -197,34 +163,7 @@ footer {
 
     }
 
-    .content {
-        font-size: 22px;
-        padding-bottom: 20px;
-    }
     
-    .content h4 {
-        color: rgb(5, 5, 5);
-        font-style: italic;
-        
-    }
-
-    .img-content {
-        padding-top: 30px;
-    }
-
-    #more-btn {
-        line-height: 20px;
-        padding: 8px 55px;
-    }
-
-    .tech-group .techicon {
-        height: 30px;
-    }
-
-    .icon_group {
-        padding: 0px 105px 20px;
-    }
-
     .contact-me  a {
         font-size: 24px;
         color: black;
@@ -254,11 +193,6 @@ footer {
     }
 
 
-    .img-me {
-        padding: 0;
-        border: 2px solid black;
-    }
-
     .img-info h2 {
         padding: 20px 98px 0px;
     }
@@ -267,10 +201,6 @@ footer {
         padding-left: 200px;
     }
   
-    #more-btn {
-        display: none;
-    }
-
     .contact-header {
         font-size: 24px
 
