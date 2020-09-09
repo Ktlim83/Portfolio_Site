@@ -10,9 +10,11 @@
 .img-banner {
     display: none;
 }
-.img-info  {
+
+.img-info {
     width: 100%;
 }
+
 .img-info h2 {
     display: inline-block;
     padding: 30px 45px 20px;
@@ -22,12 +24,19 @@
     line-height: 44px;
 
 }
+
+h6 {
+    color: black;
+    padding-left: 5px;
+}
+
+
 .img-info p {
-    padding: 0px 20px 20px;
     font-family: Arial;
     font-size: 10px;
     font-weight: bold;
     color: gray;
+    padding-left: 10px;
     line-height: 20px;
     margin-bottom: 0;
 
@@ -50,13 +59,13 @@
     padding: 0px 68px 20px;
 }
 
-.contact-me  a {
+.contact-me a {
     font-size: 20px;
     color: black;
 }
 
 .app-links i {
-    color: red;
+    color: rgb(1, 61, 11);
     font-size: 26;
 }
 
@@ -70,6 +79,10 @@
 
 .contact-header i {
     color: black;
+}
+
+#projects-header {
+    text-align: center;
 }
 
 .about-link {
@@ -87,6 +100,7 @@
     padding-left: 10px;
     font-family: 'Anton', sans-serif;
 }
+
 .blog-link {
     color: black;
     font-size: 22px;
@@ -102,19 +116,19 @@
 
 .content h4 {
     color: rgb(5, 5, 5);
+    font-size: 12px;
     font-style: italic;
-    
+
 }
 
 .img-content {
     width: 100%;
-    padding-left: 10px;
+    padding-left: 0px;
+    border: 2px solid black;
+    
 }
 
-#more-btn {
-    line-height: 14px;
-    padding-left: 10px;
-}
+
 
 .tech-group .techicon {
     height: 20px;
@@ -143,14 +157,17 @@ footer {
 
     .img-info h2 {
         padding: 20px 98px 0px;
-        
+
+
+
+    }
 
     
-    }
+
     .img-info p {
-        padding: 20px 100px 0px;
+        padding: 10px 5px 0px;
         font-size: 19px;
-    
+
     }
 
     .img-me {
@@ -167,8 +184,8 @@ footer {
         padding-left: 90px;
         position: relative;
         top: -22px;
-        
-       
+
+
     }
 
     .projects-link {
@@ -180,6 +197,7 @@ footer {
         position: relative;
         top: -22px;
     }
+
     .blog-link {
         color: black;
         font-size: 32px;
@@ -193,7 +211,7 @@ footer {
     .contact-header {
         width: 100%;
         padding: 0px 80px 30px 0px;
-        font-size:20px;
+        font-size: 20px;
 
     }
 
@@ -201,20 +219,17 @@ footer {
         font-size: 22px;
         padding-bottom: 20px;
     }
-    
+
     .content h4 {
         color: rgb(5, 5, 5);
+        font-size: 22px;
         font-style: italic;
-        
+
     }
 
     .img-content {
-        padding-top: 30px;
-    }
-
-    #more-btn {
-        line-height: 20px;
-        padding: 8px 55px;
+        
+        padding-top: 0px;
     }
 
     .tech-group .techicon {
@@ -225,7 +240,7 @@ footer {
         padding: 0px 105px 20px;
     }
 
-    .contact-me  a {
+    .contact-me a {
         font-size: 24px;
         color: black;
     }
@@ -235,11 +250,15 @@ footer {
         font-size: 24;
     }
 
-    
+
 
 }
 
 @media only screen and (min-width: 1000px) {
+
+    .wrapper {
+        width: 100%;
+    }
 
 
     .img-banner {
@@ -248,32 +267,46 @@ footer {
 
 
     .img-info p {
-        padding: 20px 100px 15px;
+        text-align: center;
         font-size: 19px;
-    
+
     }
 
 
     .img-me {
-        padding: 0;
-        border: 2px solid black;
+        display: none;
     }
 
     .img-info h2 {
-        padding: 20px 98px 0px;
+        display: none;
     }
 
-    #projects-header{
+    #projects-header {
         padding-left: 200px;
-    }
-  
-    #more-btn {
-        display: none;
     }
 
     .contact-header {
         font-size: 24px
-
     }
-  
+
+    #projects-header {
+
+        display: block;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .img-content {
+        height: 30vh;
+        padding: 0px;
+        border: 1px solid #c3c3c3;
+        display: flex;
+        justify-content: center;
+    }
+
+    .icon_group {
+        text-align: center;
+        padding-left: 15%;
+        padding-top: 5px;
+    }
 }
