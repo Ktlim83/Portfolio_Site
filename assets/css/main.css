@@ -125,7 +125,7 @@ h6 {
     width: 100%;
     padding-left: 0px;
     border: 2px solid black;
-    
+
 }
 
 
@@ -146,6 +146,7 @@ footer {
 @media only screen and (min-width: 768px) {
     .img-banner {
         display: block;
+        height: 200px;
         width: 100%;
         padding-bottom: 30px;
     }
@@ -162,7 +163,7 @@ footer {
 
     }
 
-    
+
 
     .img-info p {
         padding: 10px 5px 0px;
@@ -228,7 +229,7 @@ footer {
     }
 
     .img-content {
-        
+
         padding-top: 0px;
     }
 
@@ -263,6 +264,7 @@ footer {
 
     .img-banner {
         height: 300px;
+        object-fit: cover;
     }
 
 

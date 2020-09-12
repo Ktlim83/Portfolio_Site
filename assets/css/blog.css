@@ -1,20 +1,22 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 .wrapper {
     width: 100%;
-    
+
 }
 
 .img-banner {
     display: none;
 }
-.img-info  {
+
+.img-info {
     width: 100%;
 }
+
 .img-info h2 {
     display: inline-block;
     padding: 20px 8px 10px;
@@ -38,6 +40,7 @@
     padding: 40px;
     background-color: goldenrod;
     border: 2px dotted rgb(12, 12, 12);
+    object-fit: cover;
 }
 
 
@@ -53,7 +56,7 @@
 
 }
 
-.contact-me  a {
+.contact-me a {
     font-size: 20px;
     color: black;
 }
@@ -86,6 +89,7 @@
     padding-left: 10px;
     font-family: 'Anton', sans-serif;
 }
+
 .blog-link {
     color: black;
     font-size: 22px;
@@ -118,34 +122,35 @@ footer {
 
     .img-info h2 {
         padding: 20px 98px 0px;
-        
 
-    
+
+
     }
+
     .img-info p {
         padding: 20px 100px 0px;
         font-size: 19px;
-    
+
     }
 
     .about-link {
         font-size: 32px;
-        padding-left: 90px;
         position: relative;
         top: -22px;
-        
-       
+
+
     }
 
     .projects-link {
         color: black;
         font-size: 32px;
         float: left;
-        padding-left: 18px;
+        padding-left: 15px;
         font-family: 'Anton', sans-serif;
         position: relative;
         top: -22px;
     }
+
     .blog-link {
         color: black;
         font-size: 32px;
@@ -159,19 +164,19 @@ footer {
     .contact-header {
         width: 100%;
         padding: 0px 80px 30px 0px;
-        font-size:20px;
+        font-size: 20px;
 
     }
 
-    
-    .contact-me  a {
+
+    .contact-me a {
         font-size: 24px;
         color: black;
     }
 
-   
 
-    
+
+
 
 }
 
@@ -180,13 +185,14 @@ footer {
 
     .img-banner {
         height: 300px;
+        object-fit: cover;
     }
 
 
     .img-info p {
         padding: 20px 100px 15px;
         font-size: 19px;
-    
+
     }
 
 
@@ -194,13 +200,12 @@ footer {
         padding: 20px 98px 0px;
     }
 
-    #projects-header{
+    #projects-header {
         padding-left: 200px;
     }
-  
+
     .contact-header {
         font-size: 24px
-
     }
-  
+
 }
