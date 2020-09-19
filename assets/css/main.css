@@ -69,6 +69,9 @@ h6 {
     font-size: 26;
 }
 
+.githublink {
+    color: green;
+}
 
 .contact-header {
     text-align: right;
@@ -139,6 +142,409 @@ footer {
     color: gray;
 }
 
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
+
+.container2 {
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url(/assets/images/background.jpg) center no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+.heading {
+    color: rgba(247, 224, 95, 0.63);
+    font-size: 35px;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: 'Cambay', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    white-space: pre-wrap;
+}
+
+.heading::after {
+    content: '';
+    width: 5px;
+    height: 30px;
+    background-color: #fff;
+    margin-top: 10px;
+    position: absolute;
+    animation: blinking 1s 3s infinite;
+}
+
+@keyframes blinking {
+    0% {
+        background-color: white
+    }
+
+    50% {
+        background-color: transparent
+    }
+
+    100% {
+        background-color: white
+    }
+}
+
+.cards-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card {
+    width: 280px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: transform .5s;
+}
+
+@keyframes cardAnim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.card:nth-child(1) {
+    animation: cardAnim 2s 3s backwards;
+}
+
+.card:nth-child(2) {
+    animation: cardAnim 2s 4s backwards;
+}
+
+.card:nth-child(3) {
+    animation: cardAnim 2s 5s backwards;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.image-top {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    clip-path: polygon(0 1%, 100% 1%, 100% 70%, 0% 100%);
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: -110px;
+    z-index: 10;
+    border: 10px solid #eee;
+}
+
+.card h1 {
+    font-family: sans-serif;
+    font-style: 22px;
+    color: #555;
+    margin: 5px;
+}
+
+.card h6 {
+    font-family: sans-serif;
+    font-style: 22px;
+    color: rgb(17, 17, 17);
+    margin: 0;
+}
+
+.job {
+    font-family: monospace;
+    color: #777;
+    font-weight: 300;
+}
+
+.about-me {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    width: 90%;
+    margin: 15px 0;
+    font-style: italic;
+    color: #444;
+    text-align: center;
+}
+
+.card button {
+    width: 120px;
+    padding: 7px;
+    margin: 2px 0;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #eee;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .4);
+}
+
+
+.card:hover button {
+    animation: buttonRotation 2s 1s linear;
+}
+
+@keyframes buttonRotation {
+    0% {
+        transform: scale(1) rotateZ(0)
+    }
+
+    5% {
+        transform: scale(1.2) rotateZ(5deg)
+    }
+
+    10% {
+        transform: scale(1.2) rotateZ(-5deg)
+    }
+
+    15% {
+        transform: scale(1.2) rotateZ(5deg)
+    }
+
+    20% {
+        transform: scale(1.2) rotateZ(-5deg)
+    }
+
+    25% {
+        transform: scale(1.2) rotateZ(5deg)
+    }
+
+    30% {
+        transform: scale(1.2) rotateZ(-5deg)
+    }
+
+    35% {
+        transform: scale(1.2) rotateZ(5deg)
+    }
+
+    40% {
+        transform: scale(1.2) rotateZ(-5deg)
+    }
+
+    45% {
+        transform: scale(1.2) rotateZ(5deg)
+    }
+
+    50% {
+        transform: scale(1.2) rotateZ(-5deg)
+    }
+
+    55% {
+        transform: scale(1.2) rotateZ(5deg)
+    }
+
+    60% {
+        transform: scale(1.2) rotateZ(-5deg)
+    }
+
+    65% {
+        transform: scale(1.2) rotateZ(5deg)
+    }
+
+    70% {
+        transform: scale(1.2) rotateZ(-5deg)
+    }
+
+    75% {
+        transform: scale(1.2) rotateZ(5deg)
+    }
+
+    80% {
+        transform: scale(1.2) rotateZ(-5deg)
+    }
+
+    85% {
+        transform: scale(1.2) rotateZ(5deg)
+    }
+
+    90% {
+        transform: scale(1.2) rotateZ(-5deg)
+    }
+
+    95% {
+        transform: scale(1.2) rotateZ(5deg)
+    }
+
+    100% {
+        transform: scale(1.2) rotateZ(-5deg)
+    }
+}
+
+.social-icons {
+    width: 150px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 0 20px 0;
+    border-top: 1px solid #999;
+    padding-top: 20px;
+}
+
+.social-icons img {
+    height: 25px;
+}
+
+
+.html {
+    color: rgb(240 101 42);
+}
+
+.css {
+    color: rgb(51 169 220);
+}
+
+.js {
+    color: rgb(240 219 79)
+}
+
+.git {
+    color: rgb(241 94 84)
+}
+
+.django {
+    color: rgb(45 170 120);
+}
+
+.sql {
+    color: rgb(21 126 251);
+}
+
+.python {
+    color: rgb(255 202 29)
+}
+
+.babel {
+    color: rgb(238 210 60)
+}
+
+.parcel {
+    color: rgb(238 210 60);
+}
+
+
+@media(max-width: 1300px) {
+    .heading {
+        font-size: 30px;
+        top: 100%;
+        width: 80%;
+    }
+
+    .cards-wrapper {
+        width: 100%;
+        top: 15%;
+    }
+
+    .image-top {
+        height: 200px;
+    }
+}
+
+@media(max-width: 1000px) {
+
+    .container2 {
+        height: 100%;
+    }
+
+    .heading {
+        width: 90%;
+        top: 230%;
+        font-size: 40px;
+    }
+
+    .heading::after {
+        height: 30px;
+        margin-top: 16px;
+
+    }
+
+    .cards-wrapper {
+        flex-wrap: wrap;
+        padding: 300px 0 200px 0;
+    }
+
+    .card {
+        margin: 0 30px 50px 30px;
+    }
+
+
+
+}
+
+@media(max-width: 700px) {
+
+
+
+    .heading {
+        font-size: 50px;
+        top: 185%;
+    }
+
+    .heading::after {
+        height: 40px;
+        margin-top: 15px;
+    }
+
+
+
+}
+
+@media(max-width: 450px) {
+
+
+    .heading {
+        font-size: 40px;
+        top: 220%;
+    }
+
+    .heading::after {
+        height: 33px;
+        margin-top: 8px;
+    }
+
+    .cards-wrapper {
+        padding: 250px 0 150px 0;
+    }
+
+
+}
+
+@media(max-width: 375px) {
+
+
+    .heading {
+        font-size: 40px;
+        top: 235%;
+    }
+
+
+
+}
 
 
 
