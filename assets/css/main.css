@@ -1,720 +1,657 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper {
-    width: 100%;
+  width: 100%;
 }
 
 .img-banner {
-    display: none;
+  display: none;
 }
 
 .img-info {
-    width: 100%;
+  width: 100%;
 }
 
 .img-info h2 {
-    display: inline-block;
-    padding: 30px 45px 20px;
-    font-family: Arial;
-    font-size: 50px;
-    color: gray;
-    line-height: 44px;
-
+  display: inline-block;
+  padding: 30px 45px 20px;
+  font-family: Arial;
+  font-size: 50px;
+  color: gray;
+  line-height: 44px;
 }
 
 h6 {
-    color: black;
-    padding-left: 5px;
+  color: black;
+  padding-left: 5px;
 }
 
-
 .img-info p {
-    font-family: Arial;
-    font-size: 10px;
-    font-weight: bold;
-    color: gray;
-    padding-left: 10px;
-    line-height: 20px;
-    margin-bottom: 0;
-
+  font-family: Arial;
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
+  padding-left: 10px;
+  line-height: 20px;
+  margin-bottom: 0;
 }
 
 .img-me {
-    width: 100%;
-    padding-left: 10px;
+  width: 100%;
+  padding-left: 10px;
 }
 
-
 .img-title {
-    width: 100%;
-    font-family: 'Anton', sans-serif;
-    font-size: 22px;
-    color: green
+  width: 100%;
+  font-family: "Anton", sans-serif;
+  font-size: 22px;
+  color: green;
 }
 
 .icon_group {
-    padding: 0px 68px 20px;
+  padding: 0px 68px 20px;
 }
 
 .contact-me a {
-    font-size: 20px;
-    color: black;
+  font-size: 20px;
+  color: black;
 }
 
 .app-links i {
-    color: rgb(1, 61, 11);
-    font-size: 26;
+  color: rgb(1, 61, 11);
+  font-size: 26;
 }
 
 .githublink {
-    color: green;
+  color: green;
 }
 
 .contact-header {
-    text-align: right;
-    display: inline-block;
-    width: 100%;
-    padding: 25px 0px 20px 15px;
+  text-align: right;
+  display: inline-block;
+  width: 100%;
+  padding: 25px 0px 20px 15px;
 }
 
 .contact-header i {
-    color: black;
+  color: black;
 }
 
 #projects-header {
-    text-align: center;
+  text-align: center;
 }
 
 .about-link {
-    color: black;
-    font-size: 22px;
-    float: left;
-    padding-left: 10px;
-    font-family: 'Anton', sans-serif;
+  color: black;
+  font-size: 22px;
+  float: left;
+  padding-left: 10px;
+  font-family: "Anton", sans-serif;
 }
 
 .projects-link {
-    color: black;
-    font-size: 22px;
-    float: left;
-    padding-left: 10px;
-    font-family: 'Anton', sans-serif;
-}
-
-.blog-link {
-    color: black;
-    font-size: 22px;
-    float: left;
-    padding-left: 10px;
-    font-family: 'Anton', sans-serif;
+  color: black;
+  font-size: 22px;
+  float: left;
+  padding-left: 10px;
+  font-family: "Anton", sans-serif;
 }
 
 .content {
-    text-align: center;
-    color: gray;
+  text-align: center;
+  color: gray;
 }
 
 .content h4 {
-    color: rgb(5, 5, 5);
-    font-size: 12px;
-    font-style: italic;
-
+  color: rgb(5, 5, 5);
+  font-size: 12px;
+  font-style: italic;
 }
 
 .img-content {
-    width: 100%;
-    padding-left: 0px;
-    border: 2px solid black;
-
+  width: 100%;
+  padding-left: 0px;
+  border: 2px solid black;
 }
 
-
-
 .tech-group .techicon {
-    height: 20px;
+  height: 20px;
 }
 
 footer {
-    text-align: center;
-    color: gray;
+  text-align: center;
+  color: gray;
 }
 
-
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 a {
-    color: white;
+  color: white;
 }
 
 .container2 {
-    width: 100%;
-    height: fit-content;
-    background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .6)), url(/assets/images/background.jpg) center no-repeat;
-    background-size: cover;
-    padding-top: 10%;
-    padding-bottom: 5%;
+  width: 100%;
+  height: fit-content;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url(/assets/images/background.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 10%;
+  padding-bottom: 5%;
 }
 
 .heading {
-    color: rgba(247, 224, 95, 0.63);
-    font-size: 35px;
-    position: absolute;
-    top: 82%;
-    left: 50%;
-    transform: translate(-50%);
-    font-family: 'Cambay', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    text-align: center;
-    white-space: pre-wrap;
+  color: rgba(247, 224, 95, 0.63);
+  font-size: 35px;
+  position: absolute;
+  top: 82%;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: "Cambay", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-align: center;
+  white-space: pre-wrap;
 }
 
 .heading::after {
-    content: '';
-    width: 5px;
-    height: 30px;
-    background-color: #fff;
-    margin-top: 10px;
-    position: absolute;
-    animation: blinking 1s 3s infinite;
+  content: "";
+  width: 5px;
+  height: 30px;
+  background-color: #fff;
+  margin-top: 10px;
+  position: absolute;
+  animation: blinking 1s 3s infinite;
 }
 
 @keyframes blinking {
-    0% {
-        background-color: white
-    }
+  0% {
+    background-color: white;
+  }
 
-    50% {
-        background-color: transparent
-    }
+  50% {
+    background-color: transparent;
+  }
 
-    100% {
-        background-color: white
-    }
+  100% {
+    background-color: white;
+  }
 }
 
 .cards-wrapper {
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    top: 30%;
-    left: 50%;
-    transform: translateX(-50%);
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .card {
-    width: 280px;
-    background-color: #eee;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    transition: transform .5s;
+  width: 280px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: transform 0.5s;
 }
 
 @keyframes cardAnim {
-    0% {
-        opacity: 0;
-    }
+  0% {
+    opacity: 0;
+  }
 
-    100% {
-        opacity: 1;
-    }
+  100% {
+    opacity: 1;
+  }
 }
 
 .card:nth-child(1) {
-    animation: cardAnim 2s 3s backwards;
+  animation: cardAnim 2s 3s backwards;
 }
 
 .card:nth-child(2) {
-    animation: cardAnim 2s 4s backwards;
+  animation: cardAnim 2s 4s backwards;
 }
 
 .card:nth-child(3) {
-    animation: cardAnim 2s 5s backwards;
+  animation: cardAnim 2s 5s backwards;
 }
 
 .card:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .image-top {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    clip-path: polygon(0 1%, 100% 1%, 100% 70%, 0% 100%);
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  clip-path: polygon(0 1%, 100% 1%, 100% 70%, 0% 100%);
 }
 
 .profile-image {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 50%;
-    margin-top: -110px;
-    z-index: 10;
-    border: 10px solid #eee;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -110px;
+  z-index: 10;
+  border: 10px solid #eee;
 }
 
 .card h1 {
-    font-family: sans-serif;
-    font-style: 22px;
-    color: #555;
-    margin: 5px;
+  font-family: sans-serif;
+  font-style: 22px;
+  color: #555;
+  margin: 5px;
 }
 
 .card h6 {
-    font-family: sans-serif;
-    font-style: 22px;
-    color: rgb(17, 17, 17);
-    margin: 0;
+  font-family: sans-serif;
+  font-style: 22px;
+  color: rgb(17, 17, 17);
+  margin: 0;
 }
 
 .job {
-    font-family: monospace;
-    color: #777;
-    font-weight: 300;
+  font-family: monospace;
+  color: #777;
+  font-weight: 300;
 }
 
 .about-me {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    width: 90%;
-    margin: 15px 0;
-    font-style: italic;
-    color: #444;
-    text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  width: 90%;
+  margin: 15px 0;
+  font-style: italic;
+  color: #444;
+  text-align: center;
 }
 
 .card button {
-    width: 120px;
-    padding: 7px;
-    margin: 2px 0;
-    background-color: rgb(0, 0, 0);
-    border: none;
-    outline: none;
-    border-radius: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #eee;
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, .4);
+  width: 120px;
+  padding: 7px;
+  margin: 2px 0;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+  border-radius: 25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #eee;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
 }
 
-
 .card:hover button {
-    animation: buttonRotation 2s 1s linear;
+  animation: buttonRotation 2s 1s linear;
 }
 
 @keyframes buttonRotation {
-    0% {
-        transform: scale(1) rotateZ(0)
-    }
+  0% {
+    transform: scale(1) rotateZ(0);
+  }
 
-    5% {
-        transform: scale(1.2) rotateZ(5deg)
-    }
+  5% {
+    transform: scale(1.2) rotateZ(5deg);
+  }
 
-    10% {
-        transform: scale(1.2) rotateZ(-5deg)
-    }
+  10% {
+    transform: scale(1.2) rotateZ(-5deg);
+  }
 
-    15% {
-        transform: scale(1.2) rotateZ(5deg)
-    }
+  15% {
+    transform: scale(1.2) rotateZ(5deg);
+  }
 
-    20% {
-        transform: scale(1.2) rotateZ(-5deg)
-    }
+  20% {
+    transform: scale(1.2) rotateZ(-5deg);
+  }
 
-    25% {
-        transform: scale(1.2) rotateZ(5deg)
-    }
+  25% {
+    transform: scale(1.2) rotateZ(5deg);
+  }
 
-    30% {
-        transform: scale(1.2) rotateZ(-5deg)
-    }
+  30% {
+    transform: scale(1.2) rotateZ(-5deg);
+  }
 
-    35% {
-        transform: scale(1.2) rotateZ(5deg)
-    }
+  35% {
+    transform: scale(1.2) rotateZ(5deg);
+  }
 
-    40% {
-        transform: scale(1.2) rotateZ(-5deg)
-    }
+  40% {
+    transform: scale(1.2) rotateZ(-5deg);
+  }
 
-    45% {
-        transform: scale(1.2) rotateZ(5deg)
-    }
+  45% {
+    transform: scale(1.2) rotateZ(5deg);
+  }
 
-    50% {
-        transform: scale(1.2) rotateZ(-5deg)
-    }
+  50% {
+    transform: scale(1.2) rotateZ(-5deg);
+  }
 
-    55% {
-        transform: scale(1.2) rotateZ(5deg)
-    }
+  55% {
+    transform: scale(1.2) rotateZ(5deg);
+  }
 
-    60% {
-        transform: scale(1.2) rotateZ(-5deg)
-    }
+  60% {
+    transform: scale(1.2) rotateZ(-5deg);
+  }
 
-    65% {
-        transform: scale(1.2) rotateZ(5deg)
-    }
+  65% {
+    transform: scale(1.2) rotateZ(5deg);
+  }
 
-    70% {
-        transform: scale(1.2) rotateZ(-5deg)
-    }
+  70% {
+    transform: scale(1.2) rotateZ(-5deg);
+  }
 
-    75% {
-        transform: scale(1.2) rotateZ(5deg)
-    }
+  75% {
+    transform: scale(1.2) rotateZ(5deg);
+  }
 
-    80% {
-        transform: scale(1.2) rotateZ(-5deg)
-    }
+  80% {
+    transform: scale(1.2) rotateZ(-5deg);
+  }
 
-    85% {
-        transform: scale(1.2) rotateZ(5deg)
-    }
+  85% {
+    transform: scale(1.2) rotateZ(5deg);
+  }
 
-    90% {
-        transform: scale(1.2) rotateZ(-5deg)
-    }
+  90% {
+    transform: scale(1.2) rotateZ(-5deg);
+  }
 
-    95% {
-        transform: scale(1.2) rotateZ(5deg)
-    }
+  95% {
+    transform: scale(1.2) rotateZ(5deg);
+  }
 
-    100% {
-        transform: scale(1.2) rotateZ(-5deg)
-    }
+  100% {
+    transform: scale(1.2) rotateZ(-5deg);
+  }
 }
 
 .social-icons {
-    width: 150px;
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 0 20px 0;
-    border-top: 1px solid #999;
-    padding-top: 20px;
+  width: 150px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 0 20px 0;
+  border-top: 1px solid #999;
+  padding-top: 20px;
 }
 
 .social-icons img {
-    height: 25px;
+  height: 25px;
 }
 
-
 .html {
-    color: rgb(240 101 42);
+  color: rgb(240 101 42);
 }
 
 .css {
-    color: rgb(51 169 220);
+  color: rgb(51 169 220);
 }
 
 .js {
-    color: rgb(240 219 79)
+  color: rgb(240 219 79);
 }
 
 .git {
-    color: rgb(241 94 84)
+  color: rgb(241 94 84);
 }
 
 .django {
-    color: rgb(45 170 120);
+  color: rgb(45 170 120);
 }
 
 .sql {
-    color: rgb(21 126 251);
+  color: rgb(21 126 251);
 }
 
 .python {
-    color: rgb(255 202 29)
+  color: rgb(255 202 29);
 }
 
 .babel {
-    color: rgb(238 210 60)
+  color: rgb(238 210 60);
 }
 
 .parcel {
-    color: rgb(238 210 60);
+  color: rgb(238 210 60);
 }
 
+@media (max-width: 1300px) {
+  .heading {
+    font-size: 30px;
+    top: 100%;
+    width: 80%;
+  }
 
-@media(max-width: 1300px) {
-    .heading {
-        font-size: 30px;
-        top: 100%;
-        width: 80%;
-    }
+  .cards-wrapper {
+    width: 100%;
+    top: 15%;
+  }
 
-    .cards-wrapper {
-        width: 100%;
-        top: 15%;
-    }
-
-    .image-top {
-        height: 200px;
-    }
+  .image-top {
+    height: 200px;
+  }
 }
 
-@media(max-width: 1000px) {
+@media (max-width: 1000px) {
+  .container2 {
+    height: 100%;
+  }
 
-    .container2 {
-        height: 100%;
-    }
+  .heading {
+    width: 90%;
+    top: 230%;
+    font-size: 40px;
+  }
 
-    .heading {
-        width: 90%;
-        top: 230%;
-        font-size: 40px;
-    }
+  .heading::after {
+    height: 30px;
+    margin-top: 16px;
+  }
 
-    .heading::after {
-        height: 30px;
-        margin-top: 16px;
+  .cards-wrapper {
+    flex-wrap: wrap;
+    padding: 300px 0 200px 0;
+  }
 
-    }
-
-    .cards-wrapper {
-        flex-wrap: wrap;
-        padding: 300px 0 200px 0;
-    }
-
-    .card {
-        margin: 0 30px 50px 30px;
-    }
-
-
-
+  .card {
+    margin: 0 30px 50px 30px;
+  }
 }
 
-@media(max-width: 700px) {
+@media (max-width: 700px) {
+  .heading {
+    font-size: 50px;
+    top: 185%;
+  }
 
-
-
-    .heading {
-        font-size: 50px;
-        top: 185%;
-    }
-
-    .heading::after {
-        height: 40px;
-        margin-top: 15px;
-    }
-
-
-
+  .heading::after {
+    height: 40px;
+    margin-top: 15px;
+  }
 }
 
-@media(max-width: 450px) {
+@media (max-width: 450px) {
+  .heading {
+    font-size: 40px;
+    top: 220%;
+  }
 
+  .heading::after {
+    height: 33px;
+    margin-top: 8px;
+  }
 
-    .heading {
-        font-size: 40px;
-        top: 220%;
-    }
-
-    .heading::after {
-        height: 33px;
-        margin-top: 8px;
-    }
-
-    .cards-wrapper {
-        padding: 250px 0 150px 0;
-    }
-
-
+  .cards-wrapper {
+    padding: 250px 0 150px 0;
+  }
 }
 
-@media(max-width: 375px) {
-
-
-    .heading {
-        font-size: 40px;
-        top: 235%;
-    }
-
-
-
+@media (max-width: 375px) {
+  .heading {
+    font-size: 40px;
+    top: 235%;
+  }
 }
-
-
-
 
 @media only screen and (min-width: 768px) {
-    .img-banner {
-        display: block;
-        height: 200px;
-        width: 100%;
-        padding-bottom: 30px;
-    }
+  .img-banner {
+    display: block;
+    height: 200px;
+    width: 100%;
+    padding-bottom: 30px;
+  }
 
-    .wrapper {
-        width: 600px;
-        margin: 0 auto;
-    }
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
 
-    .img-info h2 {
-        padding: 20px 98px 0px;
+  .img-info h2 {
+    padding: 20px 98px 0px;
+  }
 
+  .img-info p {
+    padding: 10px 5px 0px;
+    font-size: 19px;
+  }
 
+  .img-me {
+    padding-top: 30px;
+  }
 
-    }
+  .img-title {
+    width: 100%;
+  }
 
+  .about-link {
+    font-size: 32px;
+    padding-left: 90px;
+    position: relative;
+    top: -22px;
+  }
 
+  .projects-link {
+    color: black;
+    font-size: 32px;
+    float: left;
+    padding-left: 18px;
+    font-family: "Anton", sans-serif;
+    position: relative;
+    top: -22px;
+  }
 
-    .img-info p {
-        padding: 10px 5px 0px;
-        font-size: 19px;
+  .blog-link {
+    color: black;
+    font-size: 32px;
+    float: left;
+    padding-left: 18px;
+    font-family: "Anton", sans-serif;
+    position: relative;
+    top: -22px;
+  }
 
-    }
+  .contact-header {
+    width: 100%;
+    padding: 0px 80px 30px 0px;
+    font-size: 20px;
+  }
 
-    .img-me {
-        padding-top: 30px;
-    }
+  .content {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
 
+  .content h4 {
+    color: rgb(5, 5, 5);
+    font-size: 22px;
+    font-style: italic;
+  }
 
-    .img-title {
-        width: 100%;
-    }
+  .img-content {
+    padding-top: 0px;
+  }
 
-    .about-link {
-        font-size: 32px;
-        padding-left: 90px;
-        position: relative;
-        top: -22px;
+  .tech-group .techicon {
+    height: 30px;
+  }
 
+  .icon_group {
+    padding: 0px 105px 20px;
+  }
 
-    }
+  .contact-me a {
+    font-size: 24px;
+    color: black;
+  }
 
-    .projects-link {
-        color: black;
-        font-size: 32px;
-        float: left;
-        padding-left: 18px;
-        font-family: 'Anton', sans-serif;
-        position: relative;
-        top: -22px;
-    }
-
-    .blog-link {
-        color: black;
-        font-size: 32px;
-        float: left;
-        padding-left: 18px;
-        font-family: 'Anton', sans-serif;
-        position: relative;
-        top: -22px;
-    }
-
-    .contact-header {
-        width: 100%;
-        padding: 0px 80px 30px 0px;
-        font-size: 20px;
-
-    }
-
-    .content {
-        font-size: 22px;
-        padding-bottom: 20px;
-    }
-
-    .content h4 {
-        color: rgb(5, 5, 5);
-        font-size: 22px;
-        font-style: italic;
-
-    }
-
-    .img-content {
-
-        padding-top: 0px;
-    }
-
-    .tech-group .techicon {
-        height: 30px;
-    }
-
-    .icon_group {
-        padding: 0px 105px 20px;
-    }
-
-    .contact-me a {
-        font-size: 24px;
-        color: black;
-    }
-
-    .app-links i {
-        color: red;
-        font-size: 24;
-    }
-
-
-
+  .app-links i {
+    color: red;
+    font-size: 24;
+  }
 }
 
 @media only screen and (min-width: 1000px) {
+  .wrapper {
+    width: 100%;
+  }
 
-    .wrapper {
-        width: 100%;
-    }
+  .img-banner {
+    height: 300px;
+    object-fit: cover;
+  }
 
+  .img-info p {
+    text-align: center;
+    font-size: 19px;
+  }
 
-    .img-banner {
-        height: 300px;
-        object-fit: cover;
-    }
+  .img-me {
+    display: none;
+  }
 
+  .img-info h2 {
+    display: none;
+  }
 
-    .img-info p {
-        text-align: center;
-        font-size: 19px;
+  #projects-header {
+    padding-left: 200px;
+  }
 
-    }
+  .contact-header {
+    font-size: 24px;
+  }
 
+  #projects-header {
+    display: block;
+    text-align: center;
+    padding: 0px;
+  }
 
-    .img-me {
-        display: none;
-    }
+  .img-content {
+    height: 30vh;
+    padding: 0px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    justify-content: center;
+  }
 
-    .img-info h2 {
-        display: none;
-    }
-
-    #projects-header {
-        padding-left: 200px;
-    }
-
-    .contact-header {
-        font-size: 24px
-    }
-
-    #projects-header {
-
-        display: block;
-        text-align: center;
-        padding: 0px;
-    }
-
-    .img-content {
-        height: 30vh;
-        padding: 0px;
-        border: 1px solid #c3c3c3;
-        display: flex;
-        justify-content: center;
-    }
-
-    .icon_group {
-        text-align: center;
-        padding-left: 15%;
-        padding-top: 5px;
-    }
+  .icon_group {
+    text-align: center;
+    padding-left: 15%;
+    padding-top: 5px;
+  }
 }
