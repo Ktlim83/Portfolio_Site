@@ -225,6 +225,10 @@ a {
   animation: cardAnim 2s 5s backwards;
 }
 
+.card:nth-child(4) {
+  animation: cardAnim 2s 6s backwards;
+}
+
 .card:hover {
   transform: scale(1.1);
 }
